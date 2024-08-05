@@ -13,3 +13,7 @@ pillow
 pytest
 beautifulsoup4
 jupyter
+openai
+tiktoken
+requests
+autogen
