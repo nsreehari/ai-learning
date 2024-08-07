@@ -66,7 +66,7 @@ class OAIConfig:
         bearer_token_provider = get_bearer_token_provider(
             credential, "https://cognitiveservices.azure.com/.default"
         )
-        return bearer_token_provider()
+        return bearer_token_provider
 
     def get_config(self) -> Dict:
 
